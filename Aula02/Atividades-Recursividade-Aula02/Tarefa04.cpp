@@ -21,6 +21,8 @@ int Maximo_div(int num1, int num2)
 int main(void)
 {
 
+    setlocale(LC_ALL, "Portuguese");
+    
     int n1, n2, calculo;
 
     printf("Digite dois números inteiros positivos: \n");
