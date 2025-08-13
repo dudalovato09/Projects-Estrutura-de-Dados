@@ -1,0 +1,9 @@
+5. Suponha que os elementos do vetor v são do tipo int e cada int ocupa 8 bytes no seu computador. 
+Se o endereço de v[0] é 55000, qual o valor da expressão  v + 3?
+
+v -> Endereço de v[0] = 55000
+v + 1 -> 55000 + (1 x 8) = 55008
+v + 2 -> 55000 + (2 x 8) = 55016
+v + 3 -> 55000 + (3 x 8) = 55024
+
+Resposta =  o valor será 55024
