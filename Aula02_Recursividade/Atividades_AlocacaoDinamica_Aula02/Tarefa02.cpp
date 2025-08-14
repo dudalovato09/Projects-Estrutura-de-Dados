@@ -1,5 +1,6 @@
-/*2.Aloque uma matriz dinamicamente e encontre o elemento minimax. Imprima no main o elemento encontrado. Utilizar os seguinte módulos: alocar memória,
-leitura da matriz, escrita da matriz, encontrar minimax e desalocar memória. Minimax de uma matriz é o menor elemento da linha onde se encontra o maior elemento da matriz.*/
+/*2.Aloque uma matriz dinamicamente e encontre o elemento minimax. Imprima no main o elemento encontrado. 
+Utilizar os seguinte módulos: alocar memória, leitura da matriz, escrita da matriz, encontrar minimax e desalocar memória. 
+Minimax de uma matriz é o menor elemento da linha onde se encontra o maior elemento da matriz.*/
 
 /*ANOTAÇÕES
 
@@ -109,6 +110,7 @@ int main(void)
     scanf("%d", &colunas);
 
     matriz = alocarMatriz(linhas, colunas);
+    
     if (matriz == NULL)
     {
         printf("Erro ao alocar memória!\n");
