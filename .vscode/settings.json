@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "stdlib.h": "c",
-        "exemplo1_pilhalistas": "c"
+        "exemplo1_pilhalistas": "c",
+        "string.h": "c"
     }
 }
