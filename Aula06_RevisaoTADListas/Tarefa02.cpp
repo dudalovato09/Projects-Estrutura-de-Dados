@@ -75,7 +75,7 @@ void inserir_ordenado(No **lista, int codigo, char nome[], int dia, int mes)
 }
 
 // Função para mostrar a lista
-void mostrar_lista(No *lista, char tipo[])
+void mostrar_lista(No *lista, const char *tipo)
 {
     printf("\n=== Lista %s ===\n", tipo);
     if (lista == NULL)
